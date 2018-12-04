@@ -12,15 +12,6 @@
 #      根据一个通过截图获取的固定的角度来推出中点的 Y 坐标
 # 最后：根据两点的坐标算距离乘以系数来获取长按时间（似乎可以直接用 X 轴距离）
 '''
-import os
-import sys
-import subprocess
-import time
-import math
-import pandas
-from PIL import Image
-import random
-from six.moves import input
 
 try:
     from common import ai, debug, config, UnicodeStreamFilter
